@@ -58,7 +58,7 @@ SELECT * FROM SALES_SAMPLE_DATA LIMIT 5;
 | 10159       | 49.00            | 100.00    | 14               | 5205.27 | 10/10/03  | Shipped | 4      | 10       | 2003    | Motorcycles | 95   | S10_1678    | Corporate Gift Ideas Co. | 6505551386  | 7734 Strong St.        |              | San Francisco | CA    |            | USA     | NA        | Brown           | Julie            | Medium   |
 
 ```sql
-SELECT COUNT(*) FROM SALES_SAMPLE_DATA;-- 2823
+SELECT COUNT(*) FROM SALES_SAMPLE_DATA;
 ```
 -- OUTPUT --
 | COUNT(*) |
