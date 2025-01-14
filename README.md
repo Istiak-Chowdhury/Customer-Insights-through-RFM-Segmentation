@@ -65,7 +65,7 @@ SELECT COUNT(*) FROM SALES_SAMPLE_DATA;
 |----------|
 | 2823     |
 
-## Checking unique values
+## Checking Unique Values
 ```sql
 select distinct status from SALES_SAMPLE_DATA;
 ```
@@ -164,13 +164,13 @@ GROUP BY CUSTOMER_NAME;
 ```
 -- OUTPUT --
 | CUSTOMER_NAME                | MonetaryValue | Frequency | Recency |
-|-----------------------------|---------------|-----------|---------|
+|-----------------------------|---------------|-----------|--------|
 | Alpha Cognac                | 70488         | 3         | 64     |
 | Amica Models & Co.          | 94117         | 2         | 264    |
 | Anna's Decorations, Ltd     | 153996        | 4         | 83     |
 | Atelier graphique           | 24180         | 3         | 187    |
 | Australian Collectables, Ltd| 64591         | 3         | 22     |
-| ........................  | .......       | ....        | ...    |
+| ........................    | .......       | ....      | ...    |
 
 
 **This SQL code creates a view named RFM_SEGMENT, which calculates the RFM (Recency, Frequency, Monetary) scores and combines them into a single RFM category combination for each customer.**
