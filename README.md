@@ -4,7 +4,7 @@ RFM (Recency, Frequency, Monetary) segmentation is a powerful analytical techniq
 
 ## Why we should go through in this process
 
-RFM segmentation calculates recency, frequency, and monetary scores for each customer and classifies them into specific categories based on these metrics. Using the provided SQL script, customers are grouped into segments such as 'Churned Customer,' 'Slipping Away Customer,' Cannot Lose Customer,' 'New Customers,' 'Potential Churners Customer,' 'Active Customer,' and 'Loyal Customer,' enabling a targeted approach to customer management and retention.
+RFM segmentation calculates recency, frequency, and monetary scores for each customer and classifies them into specific categories based on these metrics. Using the provided SQL script, customers are grouped into segments such as 'Churned Customer', 'Slipping Away Customer', 'Cannot Lose Customer', 'New Customers', 'Potential Churners Customer', 'Active Customer', and 'Loyal Customer' enabling a targeted approach to customer management and retention.
 
 
 ## Database Setup
