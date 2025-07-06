@@ -60,7 +60,7 @@ SELECT * FROM SALES_SAMPLE_DATA LIMIT 5;
 ```sql
 SELECT COUNT(*) FROM SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | COUNT(*) |
 |----------|
 | 2823     |
@@ -69,7 +69,7 @@ SELECT COUNT(*) FROM SALES_SAMPLE_DATA;
 ```sql
 select distinct status from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | status     |
 |------------|
 | Shipped    |
@@ -82,7 +82,7 @@ select distinct status from SALES_SAMPLE_DATA;
 ```sql
 select distinct year_id from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | year_id |
 |---------|
 | 2003    |
@@ -92,7 +92,7 @@ select distinct year_id from SALES_SAMPLE_DATA;
 ```sql
 select distinct PRODUCTLINE from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | PRODUCTLINE      |
 |------------------|
 | Motorcycles      |
@@ -106,7 +106,7 @@ select distinct PRODUCTLINE from SALES_SAMPLE_DATA;
 ```sql
 select distinct COUNTRY from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | COUNTRY     |
 |-------------|
 | USA         |
@@ -132,7 +132,7 @@ select distinct COUNTRY from SALES_SAMPLE_DATA;
 ```sql
 select distinct DEALSIZE from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | DEALSIZE |
 |----------|
 | Small    |
@@ -142,7 +142,7 @@ select distinct DEALSIZE from SALES_SAMPLE_DATA;
 ```sql
 select distinct TERRITORY from SALES_SAMPLE_DATA;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | TERRITORY |
 |-----------|
 | NA        |
@@ -162,7 +162,7 @@ SELECT
 FROM SALES_SAMPLE_DATA
 GROUP BY CUSTOMER_NAME;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | CUSTOMER_NAME                | MonetaryValue | Frequency | Recency |
 |-----------------------------|---------------|-----------|--------|
 | Alpha Cognac                | 70488         | 3         | 64     |
@@ -205,7 +205,7 @@ FROM
 
 SELECT * FROM RFM_SEGMENT;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | CUSTOMER_NAME            | TOTAL_RFM_SCORE | RFM_CATEGORY_COMBINATION |
 |-------------------------|-----------------|--------------------------|
 | Boards & Toys Co.       | 6               | 321                      |
@@ -218,7 +218,7 @@ SELECT DISTINCT RFM_CATEGORY_COMBINATION
     FROM RFM_SEGMENT
 ORDER BY 1;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | RFM_CATEGORY_COMBINATION |
 |--------------------------|
 | 111                      |
@@ -245,7 +245,7 @@ SELECT
 
 FROM RFM_SEGMENT;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | CUSTOMER_NAME            | CUSTOMER_SEGMENT   |
 |-------------------------|---------------------|
 | Boards & Toys Co.       | ACTIVE              |
@@ -275,7 +275,7 @@ FROM CTE1
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
---- OUTPUT ---
+**OUTPUT:**
 | CUSTOMER_SEGMENT          | Number_of_Customers |
 |---------------------------|---------------------|
 | CHURNED CUSTOMER          | 20                  |
