@@ -48,7 +48,7 @@ CREATE TABLE SALES_SAMPLE_DATA (
 ```sql
 SELECT * FROM SALES_SAMPLE_DATA LIMIT 5;
 ```
-** OUTPUT **
+**OUTPUT**
 | ORDER_NUMBER | QUANTITY_ORDERED | PRICE_EACH | ORDERLINE_NUMBER | SALES   | ORDER_DATE | STATUS  | QTR_ID | MONTH_ID | YEAR_ID | PRODUCT_LINE | MSRP | PRODUCT_CODE | CUSTOMER_NAME          | PHONE       | ADDRESS_LINE1            | ADDRESS_LINE2 | CITY    | STATE | POSTAL_CODE | COUNTRY | TERRITORY | CONTACT_LASTNAME | CONTACT_FIRSTNAME | DEAL_SIZE |
 |-------------|------------------|-----------|------------------|---------|-----------|---------|--------|----------|---------|-------------|------|-------------|-----------------------|-------------|-------------------------|--------------|---------------|-------|------------|---------|-----------|-----------------|------------------|----------|
 | 10107       | 30.00            | 95.70     | 2                | 2871.00 | 24/2/03   | Shipped | 1      | 2        | 2003    | Motorcycles | 95   | S10_1678    | Land of Toys Inc.     | 2125557818  | 897 Long Airport Avenue |              | NYC           | NY    | 10022      | USA     | NA        | Yu              | Kwai             | Small    |
